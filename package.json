@@ -1,0 +1,25 @@
+{
+  "name": "hermione-trace-tools",
+  "version": "1.0.0",
+  "description": "trace tools for hermione tests",
+  "main": "./src/index.js",
+  "scripts": {
+    "lint": "prettier ./src --write",
+    "test": "exit 0",
+    "prepublishOnly": "npm run lint"
+  },
+  "files": ["src"],
+  "keywords": [
+    "hermione",
+    "cpu",
+    "perfomance-tools"
+  ],
+  "author": "Sergei Savelev <mail+npm@ssav.me>",
+  "license": "ISC",
+  "peerDependencies": {
+    "hermione-puppeteer": "1.0.1"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5"
+  }
+}
